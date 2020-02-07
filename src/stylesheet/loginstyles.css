@@ -1,0 +1,43 @@
+.main-container{
+    display: flex;
+}
+
+.login-page{
+    align-items: center;
+}
+.login-bg{
+    flex-basis: 75%;
+    height: 100vh; 
+    width: 100vh; 
+    
+    background-image: url("../images/login-background.jpg");
+    background-repeat: no-repeat;
+    background-size: 130%;
+}
+
+.login-form{
+    flex-basis: 25%;
+    padding: 20px;
+}
+
+.form-field{
+    margin-top: 15px;
+}
+
+.form-field input{
+    width: calc(100% - 16px);
+    padding: 16px 2px 16px 10px;
+    font-size: 14px;
+    border: 1px solid #aaaaaa;
+}
+
+.app-button{
+    width: 100%;
+    padding: 16px;
+    font-size: 16px;
+    background-color: crimson;
+}
+
+.app-logo{
+    width: 10%;
+}
